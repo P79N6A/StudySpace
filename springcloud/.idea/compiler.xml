@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="eureka-server (1)" />
+        <module name="eureka-server-ha" />
+        <module name="rabbit-mq-fanout-consumer" />
+        <module name="rabbit-mq-fanout-provider" />
+        <module name="rabbit-mq-hello" />
+        <module name="rabbit-mq-topic-consumer" />
+        <module name="rabbit-mq-topic-provider" />
+        <module name="rabbitmqfanout" />
+        <module name="rabbitmqtopic" />
+        <module name="spring-boot-admin" />
+        <module name="sring-boot-helloworld" />
+      </profile>
+      <profile name="Annotation profile for rabbit-mq-direct-provider" enabled="true">
+        <sourceOutputDir name="../../rabbit-mq-direct-provider/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../rabbit-mq-direct-provider/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbit-mq-direct-provider" />
+      </profile>
+      <profile name="Annotation profile for rabbit-mq-direct-consumer" enabled="true">
+        <sourceOutputDir name="../../rabbit-mq-direct-consumer/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../rabbit-mq-direct-consumer/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbit-mq-direct-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka" target="1.5" />
+      <module name="eureka-provider" target="1.5" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server (1)" target="1.8" />
+      <module name="eureka-server-ha" target="1.8" />
+      <module name="eurekaprovider" target="1.5" />
+      <module name="rabbit-mq" target="1.8" />
+      <module name="rabbit-mq-direct-consumer" target="1.8" />
+      <module name="rabbit-mq-direct-provider" target="1.8" />
+      <module name="rabbit-mq-direct-provider (1)" target="1.8" />
+      <module name="rabbit-mq-fanout-consumer" target="1.8" />
+      <module name="rabbit-mq-fanout-provider" target="1.8" />
+      <module name="rabbit-mq-hello" target="1.8" />
+      <module name="rabbit-mq-topic-consumer" target="1.8" />
+      <module name="rabbit-mq-topic-provider" target="1.8" />
+      <module name="rabbitmq" target="1.8" />
+      <module name="rabbitmqdirect" target="1.8" />
+      <module name="rabbitmqdirectconsumer" target="1.8" />
+      <module name="rabbitmqdirectprovider" target="1.8" />
+      <module name="rabbitmqfanout" target="1.8" />
+      <module name="rabbitmqtopic" target="1.8" />
+      <module name="spring-boot-admin" target="1.8" />
+      <module name="spring-boot-admin1" target="1.8" />
+      <module name="springcloud" target="1.5" />
+      <module name="sring-boot-helloworld" target="1.8" />
+      <module name="test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server (1)" options="-parameters" />
+      <module name="eureka-server-ha" options="-parameters" />
+      <module name="rabbit-mq" options="-parameters" />
+      <module name="rabbit-mq-direct-consumer" options="-parameters" />
+      <module name="rabbit-mq-direct-provider" options="-parameters" />
+      <module name="rabbit-mq-direct-provider (1)" options="-parameters" />
+      <module name="rabbit-mq-fanout-consumer" options="-parameters" />
+      <module name="rabbit-mq-fanout-provider" options="-parameters" />
+      <module name="rabbit-mq-hello" options="-parameters" />
+      <module name="rabbit-mq-topic-consumer" options="-parameters" />
+      <module name="rabbit-mq-topic-provider" options="-parameters" />
+      <module name="rabbitmq" options="-parameters" />
+      <module name="rabbitmqdirect" options="-parameters" />
+      <module name="rabbitmqdirectconsumer" options="-parameters" />
+      <module name="rabbitmqdirectprovider" options="-parameters" />
+      <module name="rabbitmqfanout" options="-parameters" />
+      <module name="rabbitmqtopic" options="-parameters" />
+      <module name="spring-boot-admin" options="-parameters" />
+      <module name="spring-boot-admin1" options="-parameters" />
+      <module name="sring-boot-helloworld" options="-parameters" />
+    </option>
+  </component>
+</project>

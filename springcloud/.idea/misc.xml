@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sring-boot-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/eureka-server-ha/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/eureka-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/eureka-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq-direct-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq-direct-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+server:
+  port: 8080
+name: Jack
+age: 18
+content: "name: ${name}, age: ${age}"
+person:
+  name: haha
+  age: 22
+hello:
+  msg: hi,hello world! I'm dev.
+spring:
+  profiles: dev

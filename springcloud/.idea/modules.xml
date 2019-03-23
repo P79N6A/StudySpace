@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka-server-ha/eureka-server-ha.iml" filepath="$PROJECT_DIR$/eureka/eureka-server-ha/eureka-server-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-consumer/rabbit-mq-direct-consumer.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-consumer/rabbit-mq-direct-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-provider/rabbit-mq-direct-provider.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-provider/rabbit-mq-direct-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/rabbit-mq-fanout-consumer.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/rabbit-mq-fanout-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider/rabbit-mq-fanout-provider.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider/rabbit-mq-fanout-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/rabbit-mq-hello.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/rabbit-mq-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/rabbit-mq-topic-consumer.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/rabbit-mq-topic-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/rabbit-mq-topic-provider.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/rabbit-mq-topic-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbitmqdirect.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbitmqdirect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbitmqfanout.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbitmqfanout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbitmqtopic.iml" filepath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbitmqtopic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" filepath="$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sring-boot-helloworld/sring-boot-helloworld.iml" filepath="$PROJECT_DIR$/sring-boot-helloworld/sring-boot-helloworld.iml" />
+    </modules>
+  </component>
+</project>
