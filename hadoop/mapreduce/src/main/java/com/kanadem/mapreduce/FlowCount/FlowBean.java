@@ -94,6 +94,6 @@ public class FlowBean implements Writable {
    */
   @Override
   public String toString(){
-    return this.upFlow + "," + this.downFlow + "," + this.amountFlow;
+    return this.phoneNumber + "," + this.upFlow + "," + this.downFlow + "," + this.amountFlow;
   }
 }

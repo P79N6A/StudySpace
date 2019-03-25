@@ -17,12 +17,18 @@ public class JobSubmitter {
 
     job.setJarByClass(JobSubmitter.class);
     job.setMapperClass(FlowCountMapper.class);
+    /**
+     * 设置参数，MapTask在数据分区的时候用哪个分区器
+     */
+    job.setPartitionerClass(UserDefinedPartitioner.class);
+    job.setNumReduceTasks(5);
+
     job.setReducerClass(FlowCountReducer.class);
     job.setOutputKeyClass(Text.class);
     job.setOutputValueClass(FlowBean.class);
 
-    FileInputFormat.setInputPaths(job, new Path("E:\\Projects\\hadoop\\mapreduce\\src\\main\\java\\com\\kanadem\\mapreduce\\FlowCount\\input\\"));
-    FileOutputFormat.setOutputPath(job, new Path("E:\\Projects\\hadoop\\mapreduce\\src\\main\\java\\com\\kanadem\\mapreduce\\FlowCount\\output\\"));
+    FileInputFormat.setInputPaths(job, new Path("E:\\Projects\\StudySpace\\hadoop\\mapreduce\\src\\main\\java\\com\\kanadem\\mapreduce\\FlowCount\\input\\"));
+    FileOutputFormat.setOutputPath(job, new Path("E:\\Projects\\StudySpace\\hadoop\\mapreduce\\src\\main\\java\\com\\kanadem\\mapreduce\\FlowCount\\output2\\"));
     job.waitForCompletion(true);
   }
 
